@@ -18,7 +18,7 @@ Retrieve information and keys required for streaming.
 
 **Endpoint:**
 ```
-GET https://likhonflixapi.vercel.app/api/v1/mediaInfo?id=tt1877830
+GET https://mediasrc-api.vercel.app/api/v1/mediaInfo?id=tt1877830
 ```
 
 **Parameters:**
@@ -55,7 +55,7 @@ Retrieve available seasons, episodes, and language information for TV series.
 
 **Endpoint:**
 ```
-GET https://likhonflixapi.vercel.app/api/v1/getSeasonList?id=tt11737520
+GET https://mediasrc-api.vercel.app/api/v1/getSeasonList?id=tt11737520
 ```
 
 **Parameters:**
@@ -86,7 +86,7 @@ Get the actual streaming link for content.
 
 **Endpoint:**
 ```
-POST https://likhonflixapi.vercel.app/api/v1/getStream
+POST https://mediasrc-api.vercel.app/api/v1/getStream
 ```
 
 **Required Body Parameters:**
@@ -98,7 +98,7 @@ POST https://likhonflixapi.vercel.app/api/v1/getStream
 
 **Example Usage:**
 ```javascript
-fetch('https://likhonflixapi.vercel.app/api/v1/getStream', {
+fetch('https://mediasrc-api.vercel.app/api/v1/getStream', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json'
@@ -119,8 +119,8 @@ fetch('https://likhonflixapi.vercel.app/api/v1/getStream', {
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/likhonsheikhcodes/likhonflixapi.git
-cd likhonflixapi
+git clone  https://github.com/likhonsheikh54/mediasrc-api
+cd mediasrc-api
 ```
 
 2. Using Node.js:
@@ -139,12 +139,12 @@ docker run -p 3000:3000 -it -d likhonflixapi
 ## 🚀 Deploy
 
 ### Deploy to Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/likhonsheikhcodes/likhonflixapi)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/likhonsheikh54/mediasrc-api)
 
 > Note: Vercel free tier has a 10-second serverless response time limit
 
 ### Deploy to Render
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/likhonsheikhcodes/likhonflixapi)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/likhonsheikh54/mediasrc-api)
 
 ## 📝 License
 
@@ -152,7 +152,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/likhonsheikhcodes/likhonflixapi/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/likhonsheikh54/mediasrc-api/issues).
 
 ## ⭐ Show your support
 
